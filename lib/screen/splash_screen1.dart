@@ -72,6 +72,30 @@ class Mysplashscreen extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 15),
+          Container(
+            margin: EdgeInsets.only(left: 40, right: 40),
+            child: SizedBox(
+              height: 40,
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {
+                  //Todo call next pages
+                },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.deepPurple,
+                ),
+                child: Text(
+                  "Continue",
+                  style: TextStyle(
+                    fontSize: 14.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
