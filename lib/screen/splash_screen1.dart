@@ -22,6 +22,15 @@ class Mysplashscreen extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 20),
+          Text(
+            "Welcome",
+            style: TextStyle(
+              fontSize: 32.0,
+              color: Colors.deepPurple,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ],
       ),
     );
