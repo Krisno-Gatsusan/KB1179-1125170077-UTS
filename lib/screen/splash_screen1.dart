@@ -17,12 +17,12 @@ class Mysplashscreen extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.deepPurple,
               image: DecorationImage(
-                image: AssetImage("../assets/image/labubu.png"),
+                image: AssetImage("../assets/images/labubu.png"),
                 fit: BoxFit.cover,
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 10),
           Text(
             "Welcome",
             style: TextStyle(
