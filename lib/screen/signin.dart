@@ -14,33 +14,15 @@ class Signin extends StatelessWidget {
         children: [
           //1. buat gambar
           SizedBox(height: 20),
-          Icon(Icons.lock_outline, size: 80, color: Colors.green),
+          Icon(Icons.home, size: 80, color: Colors.white),
           SizedBox(height: 20),
-          Text(
-            "Selamat Datang",
-            style: TextStyle(
-              fontSize: 32.0,
-              color: Colors.black,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          Text(
-            "Silahkan login untuk melanjutkan",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 12.0,
-              color: Colors.green,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          SizedBox(height: 25),
           TextField(
-            keyboardType: TextInputType.emailAddress,
+            keyboardType: TextInputType.number,
             decoration: InputDecoration(
               constraints: const BoxConstraints(maxWidth: 400),
-              labelText: 'E-Mail',
-              prefixIcon: Icon(Icons.email),
-              hintText: 'Masukan E-mail Anda',
+              labelText: 'Phone Number',
+              prefixIcon: Icon(Icons.phone),
+              hintText: 'Enter Phone Number',
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(12.0),
               ),
