@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1125170077_uts/screen/splash_screen3.dart';
 
 class Mysplashscreen2 extends StatelessWidget {
   const Mysplashscreen2({super.key});
@@ -32,7 +33,7 @@ class Mysplashscreen2 extends StatelessWidget {
             ),
           ),
           Text(
-            "Forgot to bring your wallet \n when you are shopping? ",
+            "Don't worry! we got your cover,\n Use Wallie instead of cash! ",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 12.0,
@@ -80,7 +81,10 @@ class Mysplashscreen2 extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  //Todo call next pages
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Mysplashscreen3()),
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple,

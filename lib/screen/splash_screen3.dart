@@ -17,7 +17,7 @@ class Mysplashscreen3 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.deepPurple,
               image: DecorationImage(
-                image: AssetImage("../assets/images/labubu1.png"),
+                image: AssetImage("../assets/images/labubu2.png"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -32,7 +32,7 @@ class Mysplashscreen3 extends StatelessWidget {
             ),
           ),
           Text(
-            "Forgot to bring your wallet \n when you are shopping? ",
+            "Let's try Wallie now!\n And get the best solution.",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 12.0,
@@ -58,7 +58,7 @@ class Mysplashscreen3 extends StatelessWidget {
                 height: 10,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.deepPurple,
+                  color: Colors.grey,
                 ),
               ),
               SizedBox(width: 5),
@@ -67,7 +67,7 @@ class Mysplashscreen3 extends StatelessWidget {
                 height: 10,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.grey,
+                  color: Colors.deepPurple,
                 ),
               ),
             ],
@@ -86,7 +86,7 @@ class Mysplashscreen3 extends StatelessWidget {
                   backgroundColor: Colors.deepPurple,
                 ),
                 child: Text(
-                  "Continue",
+                  "Get Started",
                   style: TextStyle(
                     fontSize: 14.0,
                     fontWeight: FontWeight.bold,
