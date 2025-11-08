@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1125170077_uts/screen/signin.dart';
 
 class Mysplashscreen3 extends StatelessWidget {
   const Mysplashscreen3({super.key});
@@ -80,7 +81,10 @@ class Mysplashscreen3 extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
-                  //Todo call next pages
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Signin()),
+                  );
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurple,
