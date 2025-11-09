@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1125170077_uts/screen/otp.dart';
 
 class Signin extends StatelessWidget {
   const Signin({super.key});
@@ -52,7 +53,12 @@ class Signin extends StatelessWidget {
           ),
           SizedBox(height: 25),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Otp()),
+              );
+            },
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.black,
               foregroundColor: Colors.white,
