@@ -7,5 +7,8 @@
     - Muncul Tampilan SplashScreen 2 lalu klik Continue
     - Muncul Tampilan SplashScreen 3 lalu klik Get Started
     - Muncul Tampilan Sign Up lalu klik Sign In ketika sudah terdaftar
-    - Muncul Tampilan Sign In
+    - Muncul Tampilan Sign In lalu klik Continue
+    - Muncul Tampilan OTP
+
 5. Catatan Kendala
+    - Alhamdulillah
