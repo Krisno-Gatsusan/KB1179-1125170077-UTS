@@ -26,6 +26,19 @@ class Signup extends StatelessWidget {
           ),
           SizedBox(height: 20),
           TextField(
+            keyboardType: TextInputType.text,
+            style: TextStyle(color: Colors.white),
+            decoration: InputDecoration(
+              constraints: const BoxConstraints(maxWidth: 400),
+              labelText: 'Full Name',
+              labelStyle: TextStyle(color: Colors.white),
+              prefixIcon: Icon(Icons.person, color: Colors.white),
+              hintText: 'Enter Full Name',
+              hintStyle: TextStyle(color: Colors.white),
+            ),
+          ),
+          SizedBox(height: 20),
+          TextField(
             keyboardType: TextInputType.number,
             style: TextStyle(color: Colors.white),
             decoration: InputDecoration(
