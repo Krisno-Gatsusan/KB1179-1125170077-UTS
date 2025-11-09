@@ -14,7 +14,15 @@ class Signin extends StatelessWidget {
         children: [
           //1. buat gambar
           SizedBox(height: 20),
-          Icon(Icons.lock_clock_outlined, size: 80, color: Colors.white),
+          Icon(Icons.account_circle, size: 80, color: Colors.white),
+          Text(
+            "Sign In",
+            style: TextStyle(
+              fontSize: 40.0,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           SizedBox(height: 20),
           TextField(
             keyboardType: TextInputType.number,

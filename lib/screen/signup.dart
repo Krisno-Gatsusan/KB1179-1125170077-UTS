@@ -15,7 +15,15 @@ class Signup extends StatelessWidget {
         children: [
           //1. buat gambar
           SizedBox(height: 20),
-          Icon(Icons.lock_clock_outlined, size: 80, color: Colors.white),
+          Icon(Icons.person_add, size: 80, color: Colors.white),
+          Text(
+            "Sign Up",
+            style: TextStyle(
+              fontSize: 40.0,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           SizedBox(height: 20),
           TextField(
             keyboardType: TextInputType.number,
@@ -59,7 +67,7 @@ class Signup extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 10),
           ElevatedButton(
             onPressed: () {},
             style: ElevatedButton.styleFrom(
@@ -74,17 +82,6 @@ class Signup extends StatelessWidget {
             child: const Text(
               'Continue',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-            ),
-          ),
-          SizedBox(height: 10),
-          Align(
-            alignment: Alignment.center,
-            child: TextButton(
-              onPressed: () {},
-              child: Text(
-                'Lupa Password?',
-                style: TextStyle(color: Colors.white, fontSize: 14),
-              ),
             ),
           ),
         ],
