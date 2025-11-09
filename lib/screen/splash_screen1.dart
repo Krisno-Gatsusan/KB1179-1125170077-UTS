@@ -18,7 +18,7 @@ class Mysplashscreen extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.deepPurple,
               image: DecorationImage(
-                image: AssetImage("../assets/images/labubu.png"),
+                image: AssetImage("../assets/images/pororo2.png"),
                 fit: BoxFit.cover,
               ),
             ),

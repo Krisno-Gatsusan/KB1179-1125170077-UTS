@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1125170077_uts/screen/signin.dart';
+import 'package:kb1179_1125170077_uts/screen/signup.dart';
 
 class Mysplashscreen3 extends StatelessWidget {
   const Mysplashscreen3({super.key});
@@ -18,7 +18,7 @@ class Mysplashscreen3 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.deepPurple,
               image: DecorationImage(
-                image: AssetImage("../assets/images/labubu2.png"),
+                image: AssetImage("../assets/images/pororo3.png"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -83,7 +83,7 @@ class Mysplashscreen3 extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Signin()),
+                    MaterialPageRoute(builder: (context) => Signup()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
